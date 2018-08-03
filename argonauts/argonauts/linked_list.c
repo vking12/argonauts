@@ -39,6 +39,20 @@ node* prepend(node* head, int data){
     return head;
 }
 
+node* append(node* head, int data){
+    if (head == NULL)
+        return NULL;
+    
+    node *cursor = head;
+    while (cursor->next != NULL)
+        cursor = cursor->next;
+        
+    node* new_node = createNode(data, NULL);
+    cursor->next = new_node;
+    
+    return head;
+}
+
 int main(int argc, const char * argv[]){
     
     return 0;
