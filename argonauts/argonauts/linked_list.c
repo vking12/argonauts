@@ -53,7 +53,7 @@ node* append(node* head, int data){
     return head;
 }
 
-int main(int argc, const char * argv[]){
+int init_linked_list(int argc, const char * argv[]){
     
     return 0;
 }

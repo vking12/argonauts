@@ -38,7 +38,7 @@ int divideByTwo(int number){
     return number >> 2;
 }
 
-int main(int argc, const char * argv[]){
+int init_bit_manipulation(int argc, const char * argv[]){
     //printf("answer = %d", 1 >> 3);
     
     return 0;
