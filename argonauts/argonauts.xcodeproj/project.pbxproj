@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FF17C6E02113300400066691 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FF17C6DF2113300400066691 /* main.c */; };
+		FFA0E7A9211C6FB40017DE95 /* hash_table.c in Sources */ = {isa = PBXBuildFile; fileRef = FFA0E7A8211C6FB40017DE95 /* hash_table.c */; };
 		FFFAE43F211887C900D34B73 /* linked_list.c in Sources */ = {isa = PBXBuildFile; fileRef = FFFAE43E211887C900D34B73 /* linked_list.c */; };
 		FFFAE442211887ED00D34B73 /* bit_manipulation.c in Sources */ = {isa = PBXBuildFile; fileRef = FFFAE441211887ED00D34B73 /* bit_manipulation.c */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,8 @@
 /* Begin PBXFileReference section */
 		FF17C6DC2113300400066691 /* argonauts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = argonauts; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF17C6DF2113300400066691 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FFA0E7A7211C6FB40017DE95 /* hash_table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hash_table.h; sourceTree = "<group>"; };
+		FFA0E7A8211C6FB40017DE95 /* hash_table.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hash_table.c; sourceTree = "<group>"; };
 		FFFAE43D211887C100D34B73 /* linked_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linked_list.h; sourceTree = "<group>"; };
 		FFFAE43E211887C900D34B73 /* linked_list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linked_list.c; sourceTree = "<group>"; };
 		FFFAE440211887E000D34B73 /* bit_manipulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bit_manipulation.h; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				FFFAE43E211887C900D34B73 /* linked_list.c */,
 				FFFAE440211887E000D34B73 /* bit_manipulation.h */,
 				FFFAE441211887ED00D34B73 /* bit_manipulation.c */,
+				FFA0E7A7211C6FB40017DE95 /* hash_table.h */,
+				FFA0E7A8211C6FB40017DE95 /* hash_table.c */,
 			);
 			path = argonauts;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA0E7A9211C6FB40017DE95 /* hash_table.c in Sources */,
 				FFFAE43F211887C900D34B73 /* linked_list.c in Sources */,
 				FF17C6E02113300400066691 /* main.c in Sources */,
 				FFFAE442211887ED00D34B73 /* bit_manipulation.c in Sources */,
